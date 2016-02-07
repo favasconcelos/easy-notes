@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/osx,node,bower
+# Created by https://www.gitignore.io/api/osx,node
 
 ### OSX ###
 .DS_Store
@@ -63,10 +63,3 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
-
-
-### Bower ###
-bower_components
-.bower-cache
-.bower-registry
-.bower-tmp
