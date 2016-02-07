@@ -1,0 +1,22 @@
+{
+  "name": "easy-notes",
+  "authors": [
+    "Felipe Vasconcelos <felipe.vasconcelos@live.com>"
+  ],
+  "description": "Inspired on https://dribbble.com/shots/974693-Easy-Note",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "http://favasconcelos.github.io/easy-notes",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "easy-notes",
+  "version": "1.0.0",
+  "description": "Inspired on https://dribbble.com/shots/974693-Easy-Note",
+  "main": "",
+  "scripts": {},
+  "author": "Felipe Vasconcelos <felipe.vasconcelos@live.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}

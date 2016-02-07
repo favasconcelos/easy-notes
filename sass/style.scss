@@ -1,0 +1,131 @@
+$body-bg: #4B4A4F;
+$note-new-bg: #F1F2F4;
+
+* {
+	padding: 0px;
+	margin: 0px;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+	border: 0px;
+}
+
+html { 
+	background: url('../img/bg_page_2.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+i.fa {
+	cursor: pointer;
+}
+
+// --------------------------------
+
+.notes {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.note {
+	position: relative;
+	width: 350px;
+	height: 200px;
+	margin: 10px 10px;
+	float: left;
+	-webkit-box-shadow: 1px 3px 16px 2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 3px 16px 2px rgba(0,0,0,0.5);
+	box-shadow: 1px 3px 16px 2px rgba(0,0,0,0.5); 
+
+	img {
+		width: 100px;
+		height: 200px;
+		background-size: cover;
+	}
+
+	.info {
+		display: block;
+		position: absolute;
+		top: 0px;
+		width: 250px;
+		height: 100%;
+		padding: 20px 0px 20px 20px;
+		left: 100px;
+		color: white;
+
+		.title {
+			font-size: 24px;
+			font-weight: 100;
+			margin-right: 20px;
+			margin-bottom: 20px;
+		}
+
+		.buttons {
+			color: #EEE;
+			font-size: 16px;
+			i {
+				padding: 0px 10px 0px 0px;
+			}
+			i:hover {
+				color: #FFF;
+			}
+		}
+
+		.date {
+			position: absolute;
+			right: 0px;
+			bottom: 30px;
+			padding: 5px 30px 5px 15px;
+			font-weight: 300;
+			border-radius: 10px 0px 0px 10px;
+			background-color: rgba(255, 255, 255, 0.199);
+			font-size: 11px;
+		}
+	}
+}
+
+.blue {
+	background-color: #249CD5;
+}
+
+.orange {
+	background-color: #E26F50;
+}
+
+.green {
+	background-color: #4ABCCE;
+}
+
+.new {
+	text-align: center;
+	background-color: $note-new-bg;
+	.title {
+		letter-spacing: 4px;
+		color: #828D9F;
+		font-size: 50px;
+		font-weight: 300;
+		padding: 20px 0px;
+	}
+	i.btn-new {
+		font-size: 35px;
+		color: #E96C4C;
+	}
+	hr {
+		display: block;
+		height: 2px;
+		border: 0;
+		border-top: 1px solid #E5E6EB;
+		margin: 10px 0px;
+	}
+	i.btn-mic {
+		color: #818C9E;
+		font-size: 25px;
+		margin: 10px 0px;
+	}
+}
